@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.swiggy-header {
+  height: 80px;
+  width: 100%;
+  padding: 0 30px;
+}
+header {
+  height: 80px;
+  /* padding: 0 30px; */
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  margin: 0px 120px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+.loc select {
+  width: 80px;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right > div {
+  display: flex;
+  align-items: center;
+}
+
+/* .option-1.option-2,.option-3,.option-4,.option-4,.option-5,.option-6:hover{
+    color: yellow;
+} */
+
+.header-right span {
+  margin: 0px 7px;
+}
+
+/*  
+    Section
+*/
+section {
+  margin: 0px 180px;
+}
+.section1-top,
+.section2-top,
+.section3-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.fa-arrow-left,
+.fa-arrow-right {
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin: 0px 10px;
+  background-color: rgb(236, 236, 237);
+  color: rgb(155, 157, 160);
+}
+.fa-arrow-left,
+.fa-arrow-right:hover {
+  background-color: rgb(214, 216, 217);
+  color: rgb(35, 38, 43);
+  cursor: pointer;
+}
+.section1-top,
+.section2-top,
+.section3-top p {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(2, 6, 12, 0.92);
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid rgb(228, 226, 226);
+}
+.card img {
+  width: 180px;
+}
+.section-2 {
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid rgb(228, 226, 226);
+}
+
+.section2-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.card-header {
+  background-image: url(./Assets/ice-cream.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 273px;
+  height: 182px;
+  border-radius: 10px;
+  z-index: -100;
+}
+.card-header span {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  bottom: 100px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card-body {
+  font-size: 18px;
+  font-weight: 900;
+  color: rgba(2, 6, 12, 0.92);
+}
+.card-footer {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  color: rgba(2, 6, 12, 0.6);
+}
+.fa-star {
+  font-size: 14px;
+  padding: 4px;
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+}
+.card-footer span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  align-items: center;
+}
+
+.card-2 > .card-header {
+  background-image: url(./Assets/Bakingo.avif);
+}
+.card-3 > .card-header {
+  background-image: url(./Assets/KFC.avif);
+}
+.card-4 > .card-header {
+  background-image: url(./Assets/pizza.avif);
+}
+
+/* 
+    section-3
+
+*/
+
+.section3-bottom {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.section3-bottom .card-footer {
+  margin-bottom: 50px;
+}
+.section-3 button {
+  margin: 20px 10px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  border: 0.5px solid rgb(213, 210, 210);
+  color: rgba(2, 6, 12, 0.75);
+  background: #fff;
+}
+
+/* 
+
+    --Section-3 Images-- 
+
+*/
+
+.card-5 > .card-header {
+  background-image: url(./Assets/1.avif);
+}
+.card-5 > .card-header {
+  background-image: url(./Assets/2.avif);
+}
+.card-6 > .card-header {
+  background-image: url(./Assets/3.avif);
+}
+.card-7 > .card-header {
+  background-image: url(./Assets/4.avif);
+}
+.card-8 > .card-header {
+  background-image: url(./Assets/5.avif);
+}
+.card-9 > .card-header {
+  background-image: url(./Assets/6.avif);
+}
+.card-10 > .card-header {
+  background-image: url(./Assets/7.avif);
+}
+.card-11 > .card-header {
+  background-image: url(./Assets/8.avif);
+}
+.card-12 > .card-header {
+  background-image: url(./Assets/9.avif);
+}
+.card-13 > .card-header {
+  background-image: url(./Assets/10.avif);
+}
+.card-14 > .card-header {
+  background-image: url(./Assets/11.avif);
+}
+.card-15 > .card-header {
+  background-image: url(./Assets/12.avif);
+}
+.card-16 > .card-header {
+  background-image: url(./Assets/13.avif);
+}
+.card-17 > .card-header {
+  background-image: url(./Assets/14.avif);
+}
+.card-18 > .card-header {
+  background-image: url(./Assets/15.avif);
+}
+.card-19 > .card-header {
+  background-image: url(./Assets/16.avif);
+}
+.card-20 > .card-header {
+  background-image: url(./Assets/17.avif);
+}
+.card-21 > .card-header {
+  background-image: url(./Assets/18.avif);
+}
+.card-22 > .card-header {
+  background-image: url(./Assets/19.avif);
+}
+.card-23 > .card-header {
+  background-image: url(./Assets/20.avif);
+}
+.card-24 > .card-header {
+  background-image: url(./Assets/21.avif);
+}
+.card-25 > .card-header {
+  background-image: url(./Assets/22.avif);
+}
+.card-26 > .card-header {
+  background-image: url(./Assets/23.avif);
+}
+.card-27 > .card-header {
+  background-image: url(./Assets/24.avif);
+}
+
+.card-5 :hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.section3-bottom>div:hover{
+    transform: scale(0.9);
+    transition: 1s;  
+}
