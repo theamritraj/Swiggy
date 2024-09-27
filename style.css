@@ -21,8 +21,12 @@ header {
   justify-content: space-between;
   width: 150px;
 }
+._1GTCc:hover{
+  fill: orange;
+}
 .loc select {
   width: 80px;
+  border: none;
 }
 .header-right {
   display: flex;
